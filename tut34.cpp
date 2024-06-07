@@ -3,6 +3,7 @@ using namespace std;
 class Number
 {
     int a;
+    int z;
 
 public:
     Number()
@@ -38,9 +39,5 @@ int main()
 
     Number z3 = z;
     z3.display(); // Copy constructor invoked.
-
-
-
-
     return 0;
 }
